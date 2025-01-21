@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap 1 Exercícios</title>
+</head>
+<body>
+    <script>
+        const valorProduto = Number(prompt(`Valor do produto R$: `));
+        const descontoVista = valorProduto - (valorProduto * 0.10); // desconto a vista com 10%
+        const valorParcelando = valorProduto / 3; // valor dividido por três
+        
+        alert(`O valor a vista fica em R$: ${descontoVista.toFixed(2)}\n Ou 3x sem juros de R$: ${valorParcelando.toFixed(2)}`);
+    </script>
+</body>
+</html>

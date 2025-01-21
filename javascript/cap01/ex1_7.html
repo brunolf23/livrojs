@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap 1</title>
+</head>
+<body>
+    <script>
+        const valorJantar = Number(prompt(`Valor do jantar R$: `));
+        const taxaGarcom = valorJantar * 0.10; // calcular os 10% do garçom
+        const valorTotal = valorJantar + taxaGarcom; // calcular o valor da conta com add dos 10%
+
+        alert(`Taxa do Garçom R$: ${taxaGarcom.toFixed(2)}\n Total a Pagar R$: ${valorTotal.toFixed(2)}`);
+    </script>
+</body>
+</html>
