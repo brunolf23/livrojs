@@ -16,3 +16,7 @@ frm.addEventListener("submit", (e) => {
         resp1.innerText = `Multa Grave! O radar era de ${velPermitida}km/h. Você passou a ${velCondutor}km/h.`;
     };
 });
+
+frm.addEventListener("reset", () => {
+    resp1.innerText = "";
+});
