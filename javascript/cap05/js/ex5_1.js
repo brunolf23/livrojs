@@ -8,7 +8,7 @@ frm.addEventListener("submit", (e) => {
     let resposta = "";
 
     for (let i = 1 ; i <= 10 ; i++) {
-        resposta = resposta + numero + " x " + i + " = " + (numero * i) + "\n"
+        resposta = `${resposta} ${numero} x ${i} = ${numero * i} \n`;
     };
     resp.innerText = resposta;
 });
