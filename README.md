@@ -8,4 +8,5 @@ Livro: Lógica de Programação e Algoritmos com JavaScript
  <li>Capítulo 3 = Construção de algoritmos com Node.js</li>
  <li>Capítulo 4 = Condições</li>
  <li>Capítulo 5 = Repetições</li>
+ <li>Capítulo 6 = Vetores</li>
 </ul>
