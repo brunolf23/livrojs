@@ -9,4 +9,6 @@ Livro: Lógica de Programação e Algoritmos com JavaScript
  <li>Capítulo 4 = Condições</li>
  <li>Capítulo 5 = Repetições</li>
  <li>Capítulo 6 = Vetores</li>
+ <li>Capítulo 7 = </li>
+ <li>Capítulo 8 = </li>
 </ul>
