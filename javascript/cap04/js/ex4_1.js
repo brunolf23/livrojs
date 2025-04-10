@@ -13,13 +13,13 @@ frm.addEventListener("submit", (e) => {
     resp1.innerText = `Média das notas ${media.toFixed(2)}`
 
     if (media >= 7) {
-        resp2.innerText = `Parabéns ${nome}! Você foi aprovado(a).`
+        resp2.innerText = `Parabéns ${nome}!\n Você foi aprovado(a).`
         resp2.style.color = "blue"
     } else if (media >= 4) {
-        resp2.innerText = `Atenção ${nome}. Você está em exame.`
+        resp2.innerText = `Atenção ${nome}.\n Você está em recuperação.`
         resp2.style.color = "green"
     } else {
-        resp2.innerText = `Ops ${nome}... Você foi reprovado(a).`
+        resp2.innerText = `Ops ${nome}...\n Você foi reprovado(a).`
         resp2.style.color = "red"
     }
 })
