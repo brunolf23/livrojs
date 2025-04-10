@@ -12,7 +12,7 @@ frm.addEventListener("submit", (e) => {
     // math.flor calcula o valor arredondando para baixo
     const soma = Math.floor(valorDoProduto * 2)
 
-    // math.raound calucula os centavos que sobraram
+    // math.raound calcula os centavos que sobraram
     const valorTotal = valorDoProduto * 2
     const economia = Math.round((valorTotal % 1) * 100)
 
